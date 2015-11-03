@@ -15,11 +15,15 @@
 ## ssh into your edison board
 1. Go to https://developer.weaved.com/portal/members/home.php
 It will provide a ssh login similar to
-ssh -l LOGIN proxya.yoics.net -p 34141
+  ssh -l LOGIN proxya.yoics.net -p 34141
 2. Bring up a terminal window and type in the command above substituting LOGIN with root
 
 ## do some unix commands
-1. Create a directory with your name
-2. 'cd' into that directory
-3. Output the date to a file called 'done' using the redirect operator 
-
+1. Create a directory with your name (ian, joe, etc...):
+  mkdir yourname
+3. 'cd' into that directory:
+  cd yourname
+4. make a file named 'done': 
+  mkdir done
+5. and Output the date to a file called 'done' using the redirect operator:
+  date > done
